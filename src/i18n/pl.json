@@ -1,0 +1,139 @@
+{
+    "site": {
+        "title": "Twoje Imię – Technolog Produkcji & Programista Przemysłowy",
+        "description": "Technolog produkcji specjalizujący się w szlifowaniu CNC, projektowaniu narzędzi skrawających oraz w aplikacjach przemysłowych opartych na danych, tworzonych w Python, Dash i Grafana."
+    },
+    "nav": {
+        "start": "Start",
+        "about": "O Mnie",
+        "skills": "Umiejętności",
+        "contact": "Kontakt",
+        "contactButton": "Kontakt"
+    },
+    "hero": {
+        "greeting": "Cześć, jestem",
+        "name": "Twoje Imię",
+        "pitch": "Projektuję precyzyjne narzędzia skrawające, tworzę programy do szlifowania CNC i buduję narzędzia inżynierskie oparte na danych, które usprawniają procesy produkcyjne.",
+        "role": "Technolog Produkcji & Programista Przemysłowy",
+        "ctaProjects": "Zobacz Projekty",
+        "ctaAbout": "Więcej O Mnie"
+    },
+    "values": {
+        "title": "Jak Pracuję",
+        "subtitle": "Łączę wiedzę z produkcji z rozwiązaniami programistycznymi, aby usprawniać procesy przemysłowe.",
+        "card1Title": "Inżynierska Precyzja",
+        "card1Text": "Tworzę programy do szlifowania CNC oraz dokumentację techniczną dla wysokoprecyzyjnych narzędzi skrawających stosowanych w produkcji przemysłowej.",
+        "card2Title": "Optymalizacja Procesów",
+        "card2Text": "Analizuję dane produkcyjne, aby poprawić wydajność, niezawodność i wspierać podejmowanie decyzji na hali produkcyjnej.",
+        "card3Title": "Cyfrowe Narzędzia dla Przemysłu",
+        "card3Text": "Tworzę niestandardowe aplikacje inżynierskie i pulpity nawigacyjne w Python, Dash i Grafana, przekształcając dane w praktyczną wiedzę."
+    },
+    "skills": {
+        "title": "Umiejętności i Ekspertyza",
+        "subtitle": "Połączenie wiedzy inżynierskiej i nowoczesnych narzędzi programistycznych.",
+        "clusters": {
+            "engineering": {
+                "title": "Inżynieria & Produkcja",
+                "description": "Praktyczne doświadczenie w produkcji narzędzi skrawających, szlifowaniu CNC oraz dokumentacji procesów technicznych."
+            },
+            "data-tools": {
+                "title": "Dane & Wizualizacja",
+                "description": "Przekształcanie danych przemysłowych i produkcyjnych w przejrzyste, interaktywne pulpity nawigacyjne."
+            },
+            "tools": {
+                "title": "Oprogramowanie & Narzędzia",
+                "description": "Programowanie i narzędzia używane do tworzenia aplikacji inżynierskich i systemów danych przemysłowych."
+            }
+        },
+        "category": {
+            "design": "Dane & Wizualizacja",
+            "coding": "Programowanie",
+            "framework": "Framework",
+            "deployment": "Wdrożenie"
+        },
+        "astro": {
+            "description": "Nowoczesne interfejsy webowe dla narzędzi inżynierskich"
+        },
+        "react": {
+            "description": "Interaktywne interfejsy użytkownika"
+        },
+        "tailwind": {
+            "description": "Responsywny i czysty design UI"
+        },
+        "typescript": {
+            "description": "Strukturalny i łatwy w utrzymaniu kod"
+        },
+        "git": {
+            "description": "Kontrola wersji i współpraca"
+        },
+        "vercel": {
+            "description": "Wdrożenie aplikacji webowych"
+        }
+    },
+    "projects": {
+        "pageTitle": "Projekty",
+        "pageDescription": "Projekty inżynierskie i oprogramowanie przemysłowe łączące wiedzę produkcyjną z narzędziami opartymi na danych.",
+        "heroTitle": "Wybrane Projekty",
+        "heroSubtitle": "Przykłady, jak łączę inżynierię i oprogramowanie, aby rozwiązywać realne problemy przemysłowe.",
+        "viewProject": "Zobacz Projekt",
+        "detailLabels": {
+            "challenge": "Wyzwanie",
+            "approach": "Podejście",
+            "result": "Rezultat",
+            "technologiesUsed": "Użyte Technologie"
+        },
+        "title": "Projekty Inżynierskie & Oprogramowanie",
+        "subtitle": "Praktyczne projekty z produkcji, automatyzacji i wizualizacji danych przemysłowych.",
+        "astroPortfolio": {
+            "shortDescription": "Interaktywny pulpit inżynierski do wizualizacji danych produkcyjnych i procesowych.",
+            "challenge": "Inżynierowie nie mieli jasnego przeglądu kluczowych wskaźników produkcji i wydajności maszyn.",
+            "approach": "Stworzyłem pulpit w Python i Dash do wizualizacji kluczowych KPI i danych procesowych w czasie rzeczywistym.",
+            "result": "Poprawiona przejrzystość danych produkcyjnych i szybsze podejmowanie decyzji inżynierskich."
+        },
+        "coreprotectWebUI": {
+            "shortDescription": "System wykrywania stanu maszyn przy użyciu czujników wibracji i Raspberry Pi.",
+            "challenge": "Brak niezawodnej metody automatycznego określenia, czy maszyna działa.",
+            "approach": "Wykorzystano akcelerometr i rejestrowanie danych w Python do wykrywania wzorców wibracji i określania stanu maszyny.",
+            "result": "Umożliwiono automatyczny monitoring maszyn i stworzono podstawę analityki produkcji."
+        },
+        "templateCollection": {
+            "shortDescription": "Tworzenie i optymalizacja programów do szlifowania CNC dla precyzyjnych narzędzi skrawających.",
+            "challenge": "Produkcja złożonych geometrii narzędzi skrawających z wysoką dokładnością i powtarzalnością.",
+            "approach": "Opracowanie i udoskonalanie programów szlifierskich CNC oraz dokumentacji technicznej dla stabilnej i powtarzalnej produkcji.",
+            "result": "Poprawa niezawodności procesu i zapewnienie spójnej jakości narzędzi w produkcji."
+        },
+        "buttonText": "Zobacz Szczegóły",
+        "allProjectsButtonText": "Więcej Projektów"
+    },
+    "timeline": {
+        "title": "Ścieżka Zawodowa",
+        "subtitle": "Kluczowe etapy łączenia inżynierii produkcji z rozwojem oprogramowania.",
+        "item1Title": "Technolog Produkcji",
+        "item1Description": "Praca z szlifowaniem CNC, geometrią narzędzi skrawających i dokumentacją techniczną produkcji.",
+        "item2Title": "Dane Przemysłowe & Dashboardy",
+        "item2Description": "Tworzenie dashboardów i narzędzi do analizy danych produkcyjnych oraz wspierania decyzji inżynierskich.",
+        "item3Title": "Rozwój Oprogramowania Inżynierskiego",
+        "item3Description": "Tworzenie niestandardowych narzędzi webowych i aplikacji wewnętrznych dla przemysłu i inżynierii.",
+        "buttonText": "Zobacz Profil GitHub"
+    },
+    "footerCTA": {
+        "title": "Zainteresowany cyfryzacją przemysłu?",
+        "subtitle": "Tworzę narzędzia inżynierskie i rozwiązania danych, które łączą produkcję z nowoczesnym oprogramowaniem.",
+        "buttonText": "Zobacz Moje Projekty"
+    },
+    "contact": {
+        "title": "Kontakt",
+        "subtitle": "Chcesz porozmawiać o technologii produkcji, narzędziach inżynierskich lub projektach danych przemysłowych? Skontaktujmy się.",
+        "emailTitle": "Email",
+        "emailButtonText": "Wyślij Email",
+        "githubTitle": "GitHub",
+        "githubButtonText": "Zobacz Profil",
+        "linkedinTitle": "LinkedIn",
+        "linkedinButtonText": "Połącz się na LinkedIn"
+    },
+    "footer": {
+        "copyright": "Wszystkie prawa zastrzeżone.",
+        "imprint": "Impressum",
+        "privacyPolicy": "Polityka Prywatności"
+    }
+}

@@ -4,8 +4,8 @@ import Button from "../ui/Buttons.astro"; // Ensuring .astro extension
 import LanguageSwitcher from "../ui/LanguageSwitcher.astro"; // Import the LanguageSwitcher component
 import { t } from "../../utils/i18n"; // Path relative to this component
 import { Image } from "astro:assets";
-import logoLight from "../../assets/fb_logo.png";
-import logoDark from "../../assets/fb_logo_white.png";
+import logoLight from "../../assets/logo.png";
+import logoDark from "../../assets/logo.png";
 
 const lang = Astro.currentLocale;
 ---
@@ -18,7 +18,7 @@ const lang = Astro.currentLocale;
     class="max-w-container mx-auto px-6 py-4 flex items-center justify-between"
   >
     <!-- Logo/Monogram with dark/light mode versions -->
-    <a href={lang === "de" ? "/de/" : "/"} class="block" aria-label="Homepage">
+    <a href={lang === "pl" ? "/pl/" : "/"} class="block" aria-label="Homepage">
       <!-- Light mode logo (hidden in dark mode) -->
       <Image
         src={logoLight}

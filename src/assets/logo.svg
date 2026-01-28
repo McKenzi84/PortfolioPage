@@ -1,0 +1,53 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Tło koła -->
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0d0d0d"/>
+    </radialGradient>
+
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffb347"/>
+      <stop offset="100%" stop-color="#ff6a00"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Główne koło -->
+  <circle cx="250" cy="250" r="210" fill="url(#bgGlow)" stroke="url(#accent)" stroke-width="6"/>
+
+  <!-- Techniczne pierścienie -->
+  <circle cx="250" cy="250" r="170" fill="none" stroke="url(#accent)" stroke-opacity="0.3" stroke-width="2"/>
+  <circle cx="250" cy="250" r="140" fill="none" stroke="url(#accent)" stroke-opacity="0.2" stroke-width="2"/>
+
+  <!-- Linie "circuit" -->
+  <g stroke="url(#accent)" stroke-width="3" stroke-linecap="round" filter="url(#softGlow)">
+    <line x1="250" y1="40" x2="250" y2="90"/>
+    <circle cx="250" cy="40" r="5" fill="#ff6a00"/>
+    
+    <line x1="460" y1="250" x2="410" y2="250"/>
+    <circle cx="460" cy="250" r="5" fill="#ff6a00"/>
+
+    <line x1="250" y1="460" x2="250" y2="410"/>
+    <circle cx="250" cy="460" r="5" fill="#ff6a00"/>
+  </g>
+
+  <!-- Inicjały -->
+  <text x="50%" y="54%" text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="140"
+        font-weight="700"
+        fill="url(#accent)"
+        filter="url(#softGlow)">
+    TŻ
+  </text>
+
+</svg>

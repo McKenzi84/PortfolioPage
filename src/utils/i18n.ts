@@ -1,9 +1,11 @@
 import enTranslations from '../i18n/en.json';
 import deTranslations from '../i18n/de.json';
+import plTranslations from '../i18n/pl.json';
 
 const translations = {
   en: enTranslations,
   de: deTranslations,
+  pl: plTranslations,
 };
 
 type TranslationKeys = keyof typeof deTranslations; // Or enTranslations, assuming they have the same keys
