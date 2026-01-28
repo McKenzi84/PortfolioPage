@@ -1,0 +1,139 @@
+{
+    "site": {
+        "title": "Your Name – Manufacturing Technologist & Industrial Software Developer",
+        "description": "Manufacturing technologist specializing in CNC grinding, cutting tool engineering, and data-driven industrial applications built with Python, Dash, and Grafana."
+    },
+    "nav": {
+        "start": "Home",
+        "about": "About Me",
+        "skills": "Skills",
+        "contact": "Contact",
+        "contactButton": "Contact"
+    },
+    "hero": {
+        "greeting": "Hello, I am",
+        "name": "Your Name",
+        "pitch": "I design precision cutting tools, develop CNC grinding programs, and build data-driven engineering tools that improve manufacturing processes.",
+        "role": "Manufacturing Technologist & Industrial Software Developer",
+        "ctaProjects": "View Projects",
+        "ctaAbout": "More About Me"
+    },
+    "values": {
+        "title": "How I Work",
+        "subtitle": "My work combines manufacturing expertise with software solutions to improve industrial processes.",
+        "card1Title": "Engineering Precision",
+        "card1Text": "I develop CNC grinding programs and technical documentation for high-precision cutting tools used in industrial production.",
+        "card2Title": "Process Optimization",
+        "card2Text": "I analyze manufacturing data to improve efficiency, reliability, and decision-making on the production floor.",
+        "card3Title": "Digital Tools for Industry",
+        "card3Text": "I build custom engineering applications and dashboards using Python, Dash, and Grafana to turn raw data into practical insight."
+    },
+    "skills": {
+        "title": "Skills & Expertise",
+        "subtitle": "A combination of manufacturing engineering knowledge and modern software tools.",
+        "clusters": {
+            "engineering": {
+                "title": "Engineering & Manufacturing",
+                "description": "Hands-on experience in cutting tool production, CNC grinding, and technical process documentation."
+            },
+            "data-tools": {
+                "title": "Data & Visualization",
+                "description": "Transforming industrial and production data into clear, interactive dashboards."
+            },
+            "tools": {
+                "title": "Software & Tools",
+                "description": "Programming and tools used to build engineering applications and industrial data systems."
+            }
+        },
+        "category": {
+            "design": "Data & Visualization",
+            "coding": "Programming",
+            "framework": "Framework",
+            "deployment": "Deployment"
+        },
+        "astro": {
+            "description": "Modern web interfaces for engineering tools"
+        },
+        "react": {
+            "description": "Interactive user interfaces"
+        },
+        "tailwind": {
+            "description": "Responsive and clean UI design"
+        },
+        "typescript": {
+            "description": "Structured and maintainable code"
+        },
+        "git": {
+            "description": "Version control and collaboration"
+        },
+        "vercel": {
+            "description": "Deployment of web applications"
+        }
+    },
+    "projects": {
+        "pageTitle": "Projects",
+        "pageDescription": "Engineering and industrial software projects combining manufacturing knowledge with data-driven tools.",
+        "heroTitle": "Selected Projects",
+        "heroSubtitle": "Examples of how I combine engineering and software to solve real industrial problems.",
+        "viewProject": "View Project",
+        "detailLabels": {
+            "challenge": "Challenge",
+            "approach": "Approach",
+            "result": "Result",
+            "technologiesUsed": "Technologies Used"
+        },
+        "title": "Engineering & Software Projects",
+        "subtitle": "Practical projects from manufacturing, automation, and industrial data visualization.",
+        "astroPortfolio": {
+            "shortDescription": "Interactive engineering dashboard for visualizing production and process data.",
+            "challenge": "Engineers lacked a clear overview of production metrics and machine performance.",
+            "approach": "Built a dashboard using Python and Dash to visualize key KPIs and process data in real time.",
+            "result": "Improved transparency of production data and supported faster engineering decisions."
+        },
+        "coreprotectWebUI": {
+            "shortDescription": "Machine state detection system using vibration sensors and a Raspberry Pi.",
+            "challenge": "No reliable way to automatically determine whether a machine was actively running.",
+            "approach": "Used an accelerometer and Python-based data logging to detect vibration patterns and determine machine state.",
+            "result": "Enabled automated machine monitoring and created a foundation for production analytics."
+        },
+        "templateCollection": {
+            "shortDescription": "Development and optimization of CNC grinding programs for precision cutting tools.",
+            "challenge": "Producing complex cutting tool geometries with high accuracy and repeatability.",
+            "approach": "Created and refined CNC grinding programs and technical documentation to ensure stable and repeatable production.",
+            "result": "Improved process reliability and ensured consistent tool quality in production."
+        },
+        "buttonText": "View Details",
+        "allProjectsButtonText": "More Projects"
+    },
+    "timeline": {
+        "title": "Professional Journey",
+        "subtitle": "Key stages in combining manufacturing engineering with software development.",
+        "item1Title": "Manufacturing Technologist",
+        "item1Description": "Working with CNC grinding, cutting tool geometry, and technical production documentation.",
+        "item2Title": "Industrial Data & Dashboards",
+        "item2Description": "Building dashboards and tools to analyze production data and support engineering decisions.",
+        "item3Title": "Engineering Software Development",
+        "item3Description": "Developing custom web-based tools and internal applications for industrial and engineering use.",
+        "buttonText": "View GitHub Profile"
+    },
+    "footerCTA": {
+        "title": "Interested in Industrial Digitalization?",
+        "subtitle": "I build engineering tools and data solutions that connect manufacturing with modern software.",
+        "buttonText": "See My Work"
+    },
+    "contact": {
+        "title": "Contact",
+        "subtitle": "Want to discuss manufacturing technology, engineering tools, or industrial data projects? Let’s connect.",
+        "emailTitle": "Email",
+        "emailButtonText": "Send Email",
+        "githubTitle": "GitHub",
+        "githubButtonText": "View Profile",
+        "linkedinTitle": "LinkedIn",
+        "linkedinButtonText": "Connect on LinkedIn"
+    },
+    "footer": {
+        "copyright": "All rights reserved.",
+        "imprint": "Imprint",
+        "privacyPolicy": "Privacy Policy"
+    }
+}
